@@ -1,0 +1,178 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+    background: #ffffff;
+}
+
+.header {
+    color: rgb(83, 83, 83);
+    padding: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    background: url(https://www.kindpng.com/picc/m/428-4289176_camera-kawaii-pastelcolors-cute-aesthetic-cute-aesthetic-camera.png);
+    background-size: 107px;
+}
+
+.topnav {
+    background-color: #f5edff;
+    position: sticky;
+    top: 0;
+}
+
+.topnav a {
+    float: left;
+    display: block;
+    color: #7d7d7d;
+    font-weight: bold;
+    text-align: center;
+    border-right: 3px solid #ffc69b;
+    padding: 20px 20px;
+    text-decoration: none;
+}
+
+.topnav a:hover {
+    background-color: #ddd;
+    color: #ffffff;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+}
+
+.dropdown-content a {
+    color: rgb(169, 169, 169);
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #f1f1f1;
+}
+
+.dropdown:hover .dropdown-content {
+    display: inline-flex;
+}
+
+.card {
+    color: #3b3b3b;
+    padding: 20px;
+    margin: 40px;
+}
+
+div.gallery {
+    background-color: #f5edff;
+    margin: 20px;
+    padding: 20px;
+    border: 3px solid #ccc;
+    float: left;
+    width: 600px;
+}
+
+div.gallery:hover {
+    background-color: burlywood;
+    font-weight: bold;
+    border: 3px solid #777;
+}
+
+div.gallery img {
+    width: 100%;
+    height: 400px;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+    width: 100%;
+    height: 100px;
+}
+
+div.accesories {
+    background-color: #f5edff;
+    margin: 20px;
+    padding: 20px;
+    border: 3px solid #ccc;
+    float: left;
+    width: 400px;
+}
+
+div.accesories:hover {
+    background-color: rgb(221, 234, 239);
+    border: 3px solid #777;
+    font-weight: bold;
+}
+
+div.accesories img {
+    width: 100%;
+    height: 250px;
+}
+
+.myform {
+    background-color: #f0f0f0;
+    font-size: 15px;
+    color: rgb(77, 77, 77);
+    font-weight: bold;
+    padding: 10px;
+    margin: 5px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 15px;
+}
+
+.myform:hover {
+    background-color: #e4e4e4;
+    cursor: pointer;
+}
+
+.myform:focus {
+    background-color: rgb(244, 244, 244);
+}
+
+label {
+    color: rgb(77, 77, 77);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+    font-style: italic;
+    font-weight: bold;
+}
+
+input[type="submit"] {
+    color: #777;
+    font-weight: 600;
+    font-size: 15px;
+    padding: 10px 240px;
+    margin-top: 20px;
+    background-color: #ffc69b;
+    border-radius: 10px;
+    border: none;
+}
+
+input[type="submit"]:hover {
+    background-color: #ffeeee;
+    ;
+    cursor: pointer;
+}
+
+input[type="submit"]:active {
+    background-color: #e4e4e4;
+}
+
+.footer {
+    padding: 20px;
+    text-align: center;
+    background: #ffffff;
+    margin: 40px;
+}
+
+@media (width: 960px) {
+    * {
+        box-sizing: border-box;
+    }
+}
